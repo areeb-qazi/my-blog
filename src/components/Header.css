@@ -1,0 +1,213 @@
+.navbar-collapse {
+  flex-basis: 1% !important;
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  /* color: var(--bs-navbar-active-color); */
+  color: #F72E1C !important;
+  
+}
+li.nav-item a{
+line-height: 4px;
+  font-family: 'Inter';
+  font-size: 15px;}
+
+  /* Footer.css */
+
+/* Add your custom styles for the footer component here */
+
+.section_bg_scroll {
+  /* Example background styling */
+  background-attachment: scroll;
+}
+
+.subscribe_box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.subscribe_box h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subscribe_box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.wpcf7-form-control {
+  margin-right: 10px;
+}
+
+#tg-footer_box {
+  margin-top: 30px;
+}
+
+.footer-details .widget-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-details .menu {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-details .menu-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-details .menu-item a:hover {
+  text-decoration: underline;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.copy-right .privacy-text {
+  margin-right: 10px;
+}
+
+.copy-right li {
+  margin-right: 15px;
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#return-to-top:hover {
+  background: #444;
+}
+#tg-footer{
+  color: #fff;
+}
+#tg-footer a{
+  color: #fff;
+  text-decoration: none;
+}
+#tg-footer p{
+  margin: 0;
+}
+#tg-footer .subscribe {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+#tg-footer .subscribe_box h4 {
+  font-weight: 600;
+  font-size: 30px;
+  width: fit-content;
+  border-bottom: 1px solid #fff;
+  padding: 15px 0px;
+  margin: auto;
+}
+#tg-footer .subscribe_box p {
+  margin-top: 20px;
+  width: 66%;
+  /* display: flex; */
+  margin: auto;
+  padding: 27px 0px 0px 0px;
+  position: relative;
+  margin-top: 29px;
+}
+.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  word-wrap: normal !important;
+}
+#tg-footer .subscribe_box p {
+  margin-top: 20px;
+  width: 66%;
+  /* display: flex; */
+  margin: auto;
+  padding: 27px 0px 0px 0px;
+  position: relative;
+  margin-top: 29px;
+}
+.wpcf7-form-control-wrap {
+  position: relative;
+}
+#tg-footer input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+  padding: 8px 10px;
+  background: #515050;
+  border: none;
+  color: #fff;
+}
+.post-template-default input[type="text"], input[type="tel"], input[type="email"], input[type="phno"], input[type="password"] {
+  width: 100%;
+  margin-top: 0px;
+  float: unset;
+  margin-left: 0px;
+}
+.wpcf7 input[type="url"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"] {
+  direction: ltr;
+}
+#tg-footer input.wpcf7-form-control.has-spinner.wpcf7-submit {
+  position: absolute;
+  top: 28px;
+  right: 0;
+  padding: 4px 11px;
+  font-family: 'Inter';
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: #fff;
+  border: none;
+  width: auto;
+  border-left: 1px solid #fff;
+  background: #515050;
+}
+.wpcf7-spinner {
+  visibility: hidden;
+  display: inline-block;
+  background-color: #23282d;
+  opacity: 0.75;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 100%;
+  padding: 0;
+  margin: 0 24px;
+  position: relative;
+}
+.wpcf7-spinner::before {
+  content: '';
+  position: absolute;
+  background-color: #fbfbfc;
+  top: 4px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 100%;
+  transform-origin: 8px 8px;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

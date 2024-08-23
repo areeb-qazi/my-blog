@@ -1,0 +1,242 @@
+.featured-posts {
+  padding: 40px 0;
+}
+
+.featured-posts .card {
+  margin-bottom: 20px;
+}
+
+.featured-posts .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.featured-posts .card-body {
+  text-align: center;
+}
+
+.blog-list .card {
+  margin-bottom: 20px;
+}
+
+.blog-list .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* CSS for the video popup */
+.video-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* Ensure the popup appears on top of other content */
+}
+
+/* CSS for the video container */
+.video-container {
+  position: relative;
+  /* width: 80%; Adjust the width as needed */
+  max-width: 800px;
+  /* Set maximum width for better responsiveness */
+}
+
+/* CSS for the close button */
+.video-container button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* CSS for the play button overlay on video thumbnail */
+.play-button-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* Hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+.video:hover .play-button-overlay {
+  opacity: 1;
+  /* Show overlay on hover */
+}
+
+/* CSS for the play button icon */
+.play-button-overlay i {
+  color: white;
+  font-size: 48px;
+}
+
+.video {
+  position: relative;
+  cursor: pointer;
+
+}
+
+#whats-trending .ads.big {
+  width: 100%;
+  background: #E2E2E2;
+  height: 600px;
+  margin: auto;
+}
+
+#whats-trending .signature_image.a1 {
+  width: 160px;
+  background: #E2E2E2;
+  height: 600px;
+  margin: auto;
+}
+
+#whats-trending img {
+  width: 100%;
+  height: 396px;
+}
+.signature_image_thr {
+  background: #E2E2E2;
+  height: 250px;
+  margin: auto;
+  width: 970px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.ads-big{
+  width: 100%;
+  background: #E2E2E2;
+  height: 250px;
+  margin: auto;
+}
+/* singlepost  */
+.singlepostimg{
+  width: 100%;
+}
+#single-post.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#single-post h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#single-post img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#single-post p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#single-post button {
+  margin: 10px 10px 20px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#single-post button:hover {
+  background-color: #0056b3;
+}
+
+#single-post h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.related-posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.related-post {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s;
+}
+
+.related-post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.related-post h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.related-post img.singlepostimg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.related-post p {
+  font-size: 1em;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.related-post button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.related-post button:hover {
+  background-color: #0056b3;
+}
+.singlebtn{
+  display: flex;
+  justify-content: space-between;
+}

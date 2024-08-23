@@ -1,0 +1,21 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    #whats-trending .signature_image.a1{
+        width: auto !important;
+    }
+    .ads{
+        width: auto !important;
+    }
+    .signature_image ,#whats-trending .signature_image.a1,#whats-trending .ads.big{
+        height: 250px !important;
+        width: auto !important;
+    }
+    #whats-trending img{
+        width: 100%;
+    }
+    #tg-footer .subscribe {
+        padding: 12px;
+    }
+    #tg-footer .subscribe_box p {
+        width: 100%;
+    }
+  }
